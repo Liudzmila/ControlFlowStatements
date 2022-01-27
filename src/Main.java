@@ -21,7 +21,8 @@ public class Main {
 
         //the looping statement do-while
         int c = 0;
-        do { if (c % 4 == 0)
+        do {
+            if (c % 4 == 0)
             System.out.println(c);
             c++;
         } while (c <= 100);
